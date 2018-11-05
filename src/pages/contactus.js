@@ -2,7 +2,7 @@ import React from 'react';
 
 
 import Layout from '../components/layout';
-import Contactus from '../components/Contactus';
+import Contactus from '../components/contactus';
 
 import Circle from '../components/circle';
 
