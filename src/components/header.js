@@ -10,7 +10,6 @@ import { headerHeight } from '../config';
 
 
 import Menu from '../components/menu';
-import { IconLogo } from './icons';
 import alphasquadlogo2 from "../content/svg/alphasquadlogo2.svg"
 import styled from 'styled-components';
 import { theme, mixins, media, Nav } from '../styles';
@@ -19,7 +18,7 @@ const HeaderContainer = styled.header`
   ${mixins.flexBetween};
   position: fixed;
 
-  padding: 0px 50px;
+  padding: 0px 25px;
   background-color:
   ${props =>
     props.scrollDirection === 'up' ?    `${theme.colors.white}`:'transparent' }; 
@@ -180,6 +179,9 @@ const NavListItem = styled.li`
 `;
 
 const ResumeButton = styled.div`
+${media.thone`display: none;`};
+${media.phablet`display: none;`};
+${media.tiny`display: none;`};
 
 `;
 const ResumeLink = styled.div`

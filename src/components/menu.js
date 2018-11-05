@@ -55,13 +55,7 @@ const NavListItem = styled.li`
   ${media.tiny`
     font-size: ${theme.fontSizes.smallish};
   `};
-  &:before {
-    display: block;
-    content: '0' counter(item) '.';
-    color: ${theme.colors.green};
-    font-size: ${theme.fontSizes.small};
-    margin-bottom: 5px;
-  }
+
 `;
 const NavLink = styled.div`
   ${mixins.link};
@@ -74,6 +68,7 @@ const ResumeLink = styled.div`
   padding: 18px 50px;
   margin: 10% auto 0;
   width: max-content;
+ 
 `;
 
 class Menu extends Component {
