@@ -58,7 +58,8 @@ class Technology extends Component {
         <div className="containerx">
             <div className="sec_title text-center wow fadeInUp soft-promo" data-wow-delay="0.3s" >
             <h2  onMouseEnter={this.onMouseEnter}
-        onMouseLeave={this.onMouseLeave}>      <ReactRevealText show={this.state.show}  classNameName=" f_p f_size_30 l_height50 f_600 t_color  ">Technology &amp; Services we use </ReactRevealText> </h2> 
+        onMouseLeave={this.onMouseLeave}>      <ReactRevealText show={this.state.show} style={{   
+            color: `black` }}   classNameName=" f_p f_size_30 l_height50 f_700 t_color2 ">Technology &amp; Services we use </ReactRevealText> </h2> 
             
                 
             </div>
@@ -69,61 +70,61 @@ class Technology extends Component {
                 <div className="r_shape r_shape_four"></div>
                 <div className="r_shape r_shape_five">
                     <span className="text">
-                    <img  className="  img-auto "  src={alphalogo} alt=""/>
+                    <img  className="  img-auto "  src={alphalogo} alt="alphalogo"/>
 
-                        <a href="#">Alpha Squads</a>
+                      
                     </span>
                 </div>
                 <div className="s_promo_info">
                     <div className="promo_item item_one scroll_animation in-view">
                         <div className="text">
-                        <img className=" hw-50"  src={firebase} alt=""/>
+                        <img className=" hw-50"  src={firebase} alt="firebase"/>
                             <p>Firerrbase</p>
                         </div>
                     </div>
                     <div className="promo_item item_two scroll_animation in-view">
                         <div className="text">
-                        <img className=" hw-50"   src={magento} alt=""/>
+                        <img className=" hw-50"   src={magento} alt="magento"/>
                             <p>Magento</p>
                         </div>
                     </div>
                     <div className="promo_item item_three scroll_animation in-view">
                         <div className="text">
-                        <img className=" hw-50"   src={docker} alt=""/>
+                        <img className=" hw-50"   src={docker} alt="docker"/>
                             <p>Docker</p>
                         </div>
                     </div>
                     <div className="promo_item item_four scroll_animation in-view">
                         <div className="text">
-                        <img className=" hw-50"   src={cloudflare} alt=""/>
+                        <img className=" hw-50"   src={cloudflare} alt="cloudflare"/>
                             <p>Cloudflare</p>
                         </div>
                     </div>
                     <div className="promo_item item_five scroll_animation in-view">
                         <div className="text">
-                        <img className=" hw-50"   src={mongodb} alt=""/>
+                        <img className=" hw-50"   src={mongodb} alt="mongo db"/>
                             <p>Mongodb</p>
                         </div>
                     </div>
                     <div className="promo_item item_six scroll_animation in-view">
                         <div className="text">
-                        <img className=" hw-50"   src={nodejs} alt=""/>
+                        <img className=" hw-50"   src={nodejs} alt="node js"/>
                         </div>
                     </div>
                     <div className="promo_item item_seven scroll_animation in-view">
                         <div className="text">
-                        <img className=" hw-50"   src={github} alt=""/>
+                        <img className=" hw-50"   src={github} alt="github"/>
                         </div>
                     </div>
                     <div className="promo_item item_eight scroll_animation in-view">
                         <div className="text">
-                        <img className=" hw-50"   src={digitalocean} alt=""/>
+                        <img className=" hw-50"   src={digitalocean} alt="digital ocean"/>
                             <p>Digital Ocean</p>
                         </div>
                     </div>
                     <div className="promo_item item_nine scroll_animation in-view">
                         <div className="text">
-                        <img className=" hw-50"   src={golang} alt=""/>
+                        <img className=" hw-50"   src={golang} alt="golang"/>
                             <p>Golang</p>
                         </div>
                     </div>

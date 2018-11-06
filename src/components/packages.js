@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import svgtick from "../content/svg/svgtick.svg"
-import developeractivity from "../content/svg/developeractivity.svg"
+import developeractivity from "../content/svg/developeractivity.webp"
 import dashboard from "../content/svg/dashboard.svg"
-import wireframe from "../content/svg/wireframe.svg"
+import wireframe from "../content/svg/wireframe.webp"
 import { Link } from 'gatsby';
 import featureworkbg from "../content/img/featureworkbg.webp"
 import featuresbg from "../content/img/featuresbg.webp"
@@ -52,7 +52,7 @@ class Packages extends Component {
 
 
     <section style={{       background:` rgba(251, 251, 253, 0.85)`  }}  className="feature_work_area fwa_2"> 
-    <img  className="  layer layer_1 img-auto position-absolute"  src={featureworkbg} alt=""/>
+    <img  className="  layer layer_1 img-auto position-absolute"  src={featureworkbg} alt="bg image"/>
 
         <div className="containerx">
           <h2  onMouseEnter={this.onMouseEnter}
@@ -60,8 +60,8 @@ class Packages extends Component {
            
             <div className="row">
                 <div className="col-lg-6 feature_img wow fadeInLeft" >
-                <img  className=" fetures_bg layer img-auto"  src={featuresbg} alt=""/>
-                <img  className="  img-auto"  src={packagesimgjp} alt=""/>
+                <img  className=" fetures_bg layer img-auto"  src={featuresbg} alt="bg image"/>
+                <img  className="  img-auto"  src={packagesimgjp} alt=" package image"/>
                 </div>
                 <div className="col-lg-6 feature_content wow fadeInRight" >
                   <h2  onMouseEnter={this.onMouseEnter}
@@ -86,22 +86,24 @@ class Packages extends Component {
             <div className="row mb_30">
                 <div className="col-lg-4 col-sm-6">
                     <div className="s_pricing-item">
-                    <img  className="img-auto"  src={two} alt=""/>
+                    <img  className="img-auto"  src={two} alt="starter image"/>
                        
                         
                         <h5 className="f_p f_600 f_size_20 t_color mb-0 mt_40">Starter</h5>
                         <p className="f_p f_300">Create your first online presence</p>
                         <div className="price f_size_40 f_p f_700">Rs. 3499/-<sub className="f_300 f_size_16"></sub></div>
                         <ul className="list-unstyled mt_30">
-                            <li><img  className=" svgtick-price"  src={svgtick} alt=""/>Static Website</li>
-                            <li><img  className=" svgtick-price"  src={svgtick} alt=""/>Template design</li>
-                            <li><img  className=" svgtick-price"  src={svgtick} alt=""/>Basic logo </li>
-                            <li><img  className=" svgtick-price"  src={svgtick} alt=""/>Resume page</li>
-                            <li><img  className=" svgtick-price"  src={svgtick} alt=""/>Form submissions</li>
-                            <li><img  className=" svgtick-price"  src={svgtick} alt=""/>Portfolio page</li>
-                            <li><img  className=" svgtick-price"  src={svgtick} alt=""/>Free Hosting upto 1000 visitors</li>
-                            <li><img  className=" svgtick-price"  src={svgtick} alt=""/>Free support</li>
-                            
+                            <li><img  className=" svgtick-price"  src={svgtick} alt="tick icon"/>Static Website</li>
+                            <li><img  className=" svgtick-price"  src={svgtick} alt="tick icon"/>Template design</li>
+                            <li><img  className=" svgtick-price"  src={svgtick} alt="tick icon"/>Basic logo </li>
+                            <li><img  className=" svgtick-price"  src={svgtick} alt="tick icon"/>Resume page</li>
+                            <li><img  className=" svgtick-price"  src={svgtick} alt="tick icon"/>Form submissions</li>
+                            <li><img  className=" svgtick-price"  src={svgtick} alt="tick icon"/>Portfolio page</li>
+                            <li><img  className=" svgtick-price"  src={svgtick} alt="tick icon"/>Free Hosting upto 1000 visitors</li>
+                            <li><img  className=" svgtick-price"  src={svgtick} alt="tick icon"/>Free support</li>
+                            <li><img  className=" svgtick-price"  src={svgtick} alt="tick icon"/>Free support</li>
+                            <li><img  className=" svgtick-price"  src={svgtick} alt="tick icon"/>Best Speed score</li>
+
                         </ul>
                         <Link className="price_btn btn_hover mt_30" to="/contactus" >Choose This Plan</Link>
                       
@@ -109,34 +111,35 @@ class Packages extends Component {
                 </div>
                 <div className="col-lg-4 col-sm-6">
                     <div className="s_pricing-item">
-                    <img  className="img-auto"  src={one} alt=""/>
+                    <img  className="img-auto"  src={one} alt="professional image"/>
                         <div className="tag_label">Popular</div>
                       
                         <h5 className="f_p f_600 f_size_20 t_color mb-0 mt_40">Professional</h5>
                         <p className="f_p f_300">Essential Business kit</p>
                         <div className="price f_size_40 f_p f_700">Rs. 9999/-<sub className="f_300 f_size_16"></sub></div>
                         <ul className="list-unstyled  f_size_20 mt_30">
-                            <li><img  className=" svgtick-price"  src={svgtick} alt=""/>Custom Website</li>
-                            <li><img  className=" svgtick-price"  src={svgtick} alt=""/>JAM stack</li>
-                            <li><img  className=" svgtick-price"  src={svgtick} alt=""/>Personal Dashboard</li>
-                            <li><img  className=" svgtick-price"  src={svgtick} alt=""/>Domain Name</li>
-                            <li><img  className=" svgtick-price"  src={svgtick} alt=""/>Business E-mail</li>
-                            <li><img  className=" svgtick-price"  src={svgtick} alt=""/>e-Commerce</li>
-                            <li><img  className=" svgtick-price"  src={svgtick} alt=""/>Promo Card</li>
-                            <li><img  className=" svgtick-price"  src={svgtick} alt=""/>Promo FLyer</li>
-                            <li><img  className=" svgtick-price"  src={svgtick} alt=""/>Animated Video</li>
-                            <li><img  className=" svgtick-price"  src={svgtick} alt=""/>Basic Marketing</li>
-                            <li><img  className=" svgtick-price"  src={svgtick} alt=""/>Custom Logo</li>
-                            <li><img  className=" svgtick-price"  src={svgtick} alt=""/>Insta promo</li>
-                            <li><img  className=" svgtick-price"  src={svgtick} alt=""/>Banner design</li>
-                            <li><img  className=" svgtick-price"  src={svgtick} alt=""/>Free hosting upto 1000 visitors</li>
+                            <li><img  className=" svgtick-price"  src={svgtick} alt="tick icon"/>Custom Website</li>
+                            <li><img  className=" svgtick-price"  src={svgtick} alt="tick icon"/>JAM stack</li>
+                            <li><img  className=" svgtick-price"  src={svgtick} alt="tick icon"/>Personal Dashboard</li>
+                            <li><img  className=" svgtick-price"  src={svgtick} alt="tick icon"/>Domain Name</li>
+                            <li><img  className=" svgtick-price"  src={svgtick} alt="tick icon"/>Business E-mail</li>
+                            <li><img  className=" svgtick-price"  src={svgtick} alt="tick icon"/>e-Commerce</li>
+                            <li><img  className=" svgtick-price"  src={svgtick} alt="tick icon"/>Promo Card</li>
+                            <li><img  className=" svgtick-price"  src={svgtick} alt="tick icon"/>Promo FLyer</li>
+                            <li><img  className=" svgtick-price"  src={svgtick} alt="tick icon"/>Animated Video</li>
+                            <li><img  className=" svgtick-price"  src={svgtick} alt="tick icon"/>Basic Marketing</li>
+                            <li><img  className=" svgtick-price"  src={svgtick} alt="tick icon"/>Custom Logo</li>
+                            <li><img  className=" svgtick-price"  src={svgtick} alt="tick icon"/>Insta promo</li>
+                            <li><img  className=" svgtick-price"  src={svgtick} alt="tick icon"/>Banner design</li>
+                            <li><img  className=" svgtick-price"  src={svgtick} alt="tick icon"/>Free hosting upto 1000 visitors</li>
+                            <li><img  className=" svgtick-price"  src={svgtick} alt="tick icon"/>Best Speed score</li>
                             </ul>
                         <Link className="price_btn btn_hover mt_30" to="/contactus" >Choose This Plan</Link>
                     </div>
                 </div>
                 <div className="col-lg-4 col-sm-6">
                     <div className="s_pricing-item">
-                    <img  className="img-auto"  src={three} alt=""/>
+                    <img  className="img-auto"  src={three} alt="business image"/>
                         
                         <h5 className="f_p f_600 f_size_20 t_color mb-0 mt_40">Business</h5>
                         <p className="f_p f_300">Experience the best from us.</p>
@@ -159,7 +162,7 @@ class Packages extends Component {
             <div className="row flex-row-reverse service_details_item">
                 <div className="col-lg-6">
                     <div className="service_details_img ml-0">
-                    <img  className=" img-auto"  src={wireframe} alt=""/>
+                    <img  className=" img-auto"  src={wireframe} alt="wire frame image"/>
                     </div>
                 </div>
                 <div className="col-lg-6">
@@ -169,10 +172,10 @@ class Packages extends Component {
                        
                         <p className="f_300 mb_50">Your customers are out there on the internet, searching for you. The sooner you’ve established your online presence with us, the sooner they’ll find you. And you can do what you do best.</p>
                         <ul className="list-unstyled mb-30 pl-0 pr_20">
-                            <li><img  className=" svgtick"  src={svgtick} alt=""/>A professional website to showcase what you do to the world. Up to 5 pages with descriptions and images we put together for you (typically: Home, Services, Gallery, Reviews, Contact).</li>
-                            <li><img  className=" svgtick"  src={svgtick} alt=""/> A theme you like. We have a library of effective designs with a range of layouts and colours, which we select for you to align with your personal preferences and requirements.</li>
+                            <li><img  className=" svgtick"  src={svgtick} alt="tick icon"/>A professional website to showcase what you do to the world. Up to 5 pages with descriptions and images we put together for you (typically: Home, Services, Gallery, Reviews, Contact).</li>
+                            <li><img  className=" svgtick"  src={svgtick} alt="tick icon"/> A theme you like. We have a library of effective designs with a range of layouts and colours, which we select for you to align with your personal preferences and requirements.</li>
                             
-                            <li><img  className=" svgtick"  src={svgtick} alt=""/>Google-friendly content, so your customers can find you.</li>
+                            <li><img  className=" svgtick"  src={svgtick} alt="tick icon"/>Google-friendly content, so your customers can find you.</li>
                           
                            
                         </ul>
@@ -188,18 +191,18 @@ class Packages extends Component {
         onMouseLeave={this.onMouseLeave}>      <ReactRevealText show={this.state.show}  className=" f_p f_600 f_size_30 t_color3 l_height40 mb_20  ">We sort out all the technical stuffs </ReactRevealText> </h2> 
                      
                         <ul className="list-unstyled mb-30 pl-0 pl_20">
-                        <li><img  className=" svgtick"  src={svgtick} alt=""/> A built-in contact form and location info, so your customers can get in touch with you.</li>
-                            <li><img  className=" svgtick"  src={svgtick} alt=""/>Your domain (the “www...” thing) will be registered directly to you, rather than through a third party, so it’s yours to keep.</li>
+                        <li><img  className=" svgtick"  src={svgtick} alt="tick icon"/> A built-in contact form and location info, so your customers can get in touch with you.</li>
+                            <li><img  className=" svgtick"  src={svgtick} alt="tick icon"/>Your domain (the “www...” thing) will be registered directly to you, rather than through a third party, so it’s yours to keep.</li>
                           
-                            <li><img  className=" svgtick"  src={svgtick} alt=""/> Edits and updates with support from our brilliant team of experts.</li>
-                            <li><img  className=" svgtick"  src={svgtick} alt=""/>A design that's clear and easy to use. Optimised for mobile phones as well as bigger screens.</li>
+                            <li><img  className=" svgtick"  src={svgtick} alt="tick icon"/> Edits and updates with support from our brilliant team of experts.</li>
+                            <li><img  className=" svgtick"  src={svgtick} alt="tick icon"/>A design that's clear and easy to use. Optimised for mobile phones as well as bigger screens.</li>
                            
                         </ul>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <div className="service_details_img ml-0">
-                    <img  className=" img-auto"  src={developeractivity} alt=""/>
+                    <img  className=" img-auto"  src={developeractivity} alt="developer image"/>
                     </div>
                 </div>
             </div>
@@ -208,7 +211,7 @@ class Packages extends Component {
             <div className="row service_details_item">
                 <div className="col-lg-6">
                     <div className="service_details_img">
-                    <img  className=" img-auto"  src={dashboard} alt=""/>
+                    <img  className=" img-auto"  src={dashboard} alt="dashboard image"/>
                     </div>
                 </div>
                 <div className="col-lg-6 d-flex align-items-center">

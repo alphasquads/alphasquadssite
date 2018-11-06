@@ -50,7 +50,7 @@ import alphasquadlogo2 from "../content/svg/alphasquadlogo2.svg"
      </div>
       <div className="footer_inner row"> 
           <div className="col-lg-4 col-md-6 footer_logo">
-          <img  className=" img-auto"  src={alphasquadlogo2} alt=""/>
+          <img  className=" img-auto"  src={alphasquadlogo2} alt="alphassquad logo"/>
              
           </div>
           <div className="footer_widget pad-top-40 footer_logo col-lg-4 col-sm-6">

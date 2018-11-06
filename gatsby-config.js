@@ -17,7 +17,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'AlphaSquads',
-        short_name: 'AS',
+        short_name: 'Alpha Squads',
         start_url: '/',
         background_color: '#020c1b',
         theme_color: '#0a192f',

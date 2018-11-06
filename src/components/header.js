@@ -309,7 +309,7 @@ class Header extends Component {
               <CSSTransition classNames="fade" timeout={3000}>
                 <Logo>
                   <LogoLink to="/" aria-label="Home">
-                  <img  className=" img-auto"  src={alphasquadlogo2} alt=""/>
+                  <img  className=" img-auto"  src={alphasquadlogo2} alt="alphasquad logo"/>
                   </LogoLink>
                 </Logo>
               </CSSTransition>

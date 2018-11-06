@@ -48,7 +48,7 @@ class Circle extends Component {
         <section className="promo_area">
         <div className="containerx display-flex">
             <div className="promo-content">
-            <img  className="wow fadeInDown img-auto "  src={iconimg} alt=""/>
+            <img  className="wow fadeInDown img-auto "  src={iconimg} alt=" paint icon"/>
             <h2  onMouseEnter={this.onMouseEnter}
         onMouseLeave={this.onMouseLeave}>      <ReactRevealText show={this.state.show}  className=" wow fadeInUp  ">Designed With Purpose </ReactRevealText> </h2> 
                 <p className="wow fadeInUp" delay="950ms">Carefully crafted, beautiful and useful Library of templates are comming soon.

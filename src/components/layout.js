@@ -55,7 +55,7 @@ position: `fixed`,
 alignIitems: `center`,
 height: `100%`,
 top: `0%`, 
-zIndex:`-111`}} src={alphasquadlogo} alt=""/> 
+zIndex:`-111`}} src={alphasquadlogo} alt=" alphasquad logo"/> 
                 <Header location={location} navLinks={nav} />
                 <Social />
                 <Email />

@@ -2,17 +2,17 @@ import React, { Component } from 'react';
 
 import ReactRevealText from   'react-reveal-text';
 import { Link } from 'gatsby';
-import design from "../content/svg/design.svg"
+import design from "../content/svg/design.webp"
 import development from "../content/svg/development.svg"
-import marketing from "../content/svg/marketing.svg"
+import marketing from "../content/svg/marketing.webp"
 import business from "../content/svg/business.svg"
-import strategy from "../content/svg/strategy.svg"
+import strategy from "../content/svg/strategy.webp"
 import scaling from "../content/svg/scaling.svg"
 import designicon from "../content/svg/designicon.svg"
 import developmenticon from "../content/svg/developmenticon.svg"
 import marketingicon from "../content/svg/marketingicon.svg"
 import businessicon from "../content/svg/businessicon.svg"
-import heroimg from "../content/svg/heroimg.svg"
+import heroimg from "../content/svg/heroimg.webp"
 
 import featureworkbg from "../content/img/featureworkbg.webp"
 import bannerbg from "../content/img/bannerbg.webp"
@@ -56,8 +56,8 @@ class Homepage extends Component {
 
 
     <section className="agency_banner_area bg_color">
-    <img  className="  layer layer_1 img-auto position-absolute"  src={featureworkbg} alt=""/>
-    <img  className=" banner_shap img-auto "  src={bannerbg} alt=""/>
+    <img  className="  layer layer_1 img-auto position-absolute"  src={featureworkbg} alt="bg img"/>
+    <img  className=" banner_shap img-auto "  src={bannerbg} alt="banner background"/>
         <div className="containerx custom_containerx">
             <div className="row">
                 <div className="col-lg-6 d-flex align-items-center">
@@ -74,15 +74,15 @@ class Homepage extends Component {
                     </div>
                 </div>
                 <div className="col-lg-6 text-right">
-                <img  className="  protype_img wow pad-top-60 fadeInRight img-auto"  src={heroimg} alt=""/>                </div>
+                <img  className="  protype_img wow pad-top-60 fadeInRight img-auto"  src={heroimg} alt="hero dashboard image"/>                </div>
             </div>
            
         </div>
     </section>
 
 <section style={{       background:` rgba(251, 251, 253, 0.85)`, paddingBottom:`150px`  }}  className="design_team_area pad-bottom-50">
-<img  className=" layer layer_1 img-auto "  src={bannerlayer1} alt=""/>
-<img  className=" layer layer_2 img-auto "  src={designdeambg} alt=""/>
+<img  className=" layer layer_1 img-auto "  src={bannerlayer1} alt="bg img"/>
+<img  className=" layer layer_2 img-auto "  src={designdeambg} alt="bg img"/>
         
         <div className="containerx">
         <h2  onMouseEnter={this.onMouseEnter}
@@ -103,7 +103,7 @@ class Homepage extends Component {
                     <h6>Explore Services in destail. </h6>
                 </div>
                 <div className="designe_img">
-                <img  className="  img-auto "  src={homepagehandshake} alt=""/>
+                <img  className="  img-auto "  src={homepagehandshake} alt="handshake image"/>
                   
                 </div>
             </div>
@@ -123,36 +123,36 @@ class Homepage extends Component {
             <div className="row service_info mt_70 mb_30">
              <div className="col-lg-3 col-sm-6 mb-30">
                  <div className="service_item border-r30-s1">
-                        <div className="icon s_icon_one"><img  className="  pad-8"  src={designicon} alt=""/></div>
+                        <div className="icon s_icon_one"><img  className="  pad-8"  src={designicon} alt="design icon"/></div>
                         <h4 className="f_600 f_size_20 l_height28 t_color2 mb_20">Design</h4>
                          <p >An impressive visual experience has a significant effect. We trust that incredible structure can change the manner in which customers and brands connect with one another.</p> 
-                         <Link to="/services#designid">    <img  className=" img-auto"  src={design} alt=""/></Link>
+                         <Link to="/services#designid">    <img  className=" img-auto"  src={design} alt="design image"/></Link>
                     </div>
                 </div>
                 <div className="col-lg-3 col-sm-6 mb-30">
                     <div className="service_item border-r30-s1">
-                        <div className="icon s_icon_two"><img  className="  pad-8"  src={developmenticon} alt=""/>
+                        <div className="icon s_icon_two"><img  className="  pad-8"  src={developmenticon} alt="development icon"/>
 </div>
                         <h4 className="f_600 f_size_20 l_height28 t_color2 mb_20">Development</h4>
                         <p>Crisp thoughts, advancement, the most recent technology, and a comprehension of the business, are crucial to creating forefront applications. From back end to front end, we have it covered.</p>
-                         <Link to="/services#developmentid"> <img  className=" img-auto"  src={development} alt=""/></Link>
+                         <Link to="/services#developmentid"> <img  className=" img-auto"  src={development} alt="development image"/></Link>
                       </div>
                 </div>
                 <div className="col-lg-3 col-sm-6 mb-30">
                     <div className="service_item border-r30-s1">
-                        <div className="icon s_icon_three"><img  className="  pad-8"  src={marketingicon} alt=""/>
+                        <div className="icon s_icon_three"><img  className="  pad-8"  src={marketingicon} alt="marketing icon"/>
 </div>
                         <h4 className="f_600 f_size_20 l_height28 t_color2 mb_20">Digital <br/> Marketing</h4>
                         <p>We don't simply build your activity, we focus on the movement you need. From statistical surveying to advertising idea, we execute promoting techniques that drive conversions.</p>
-                       <Link to="/services#marketingid">   <img  className=" img-auto"  src={marketing} alt=""/></Link>
+                       <Link to="/services#marketingid">   <img  className=" img-auto"  src={marketing} alt="marketing image"/></Link>
                     </div>
                 </div>
                 <div className="col-lg-3 col-sm-6 mb-30">
                     <div className="service_item border-r30-s1">
-                        <div className="icon s_icon_four"><img  className="  pad-8"  src={businessicon} alt=""/></div>
+                        <div className="icon s_icon_four"><img  className="  pad-8"  src={businessicon} alt="business icon"/></div>
                         <h4 className="f_600 f_size_20 l_height28 t_color2 mb_20">Business</h4>
                         <p>Business paperwork, analytics &amp; investigation sit at the base of every business. With the roadmap known it's easy to run business with confidence.</p>
-                        <Link to="/services#businessid">  <img  className=" img-auto"  src={business} alt=""/></Link>
+                        <Link to="/services#businessid">  <img  className=" img-auto"  src={business} alt="business image"/></Link>
                     </div>
                 </div>
             </div>
@@ -166,7 +166,7 @@ class Homepage extends Component {
             <div className="row feature_info">
                 <div className="col-lg-6">
                     <div className="feature_img f_img_one">
-                    <img  className="text-center img-auto"  src={strategy} alt=""/>
+                    <img  className="text-center img-auto"  src={strategy} alt="strategy image"/>
                      </div>
                 </div>
                 <div className="col-lg-6">
@@ -192,7 +192,7 @@ We comprehend business. That is the reason we start each venture with a workshop
             <div className="row feature_info flex-row-reverse mt_130">
                 <div className="col-lg-6 ">
                     <div className="feature_img f_img_two">
-                    <img  className="text-center img-auto"  src={development} alt=""/>    </div>
+                    <img  className="text-center img-auto"  src={development} alt="development image"/>    </div>
                 </div>
                 <div className="col-lg-6">
                     <div className="f_content">
@@ -217,7 +217,7 @@ We comprehend business. That is the reason we start each venture with a workshop
             <div className="row feature_info mt_130">
                 <div className="col-lg-6">
                     <div className="feature_img f_img_one">
-                    <img  className=" img-auto text-center"  src={marketing} alt=""/>
+                    <img  className=" img-auto text-center"  src={marketing} alt="marketing image"/>
                      </div>
                 </div>
                 <div className="col-lg-6">
@@ -245,7 +245,7 @@ The best promoting engages clients and influences them to feel sure and savvy. W
             <div className="row feature_info flex-row-reverse mt_130">
                 <div className="col-lg-6 ">
                     <div className="feature_img f_img_two">
-                    <img  className="text-center img-auto"  src={scaling} alt=""/>    </div>
+                    <img  className="text-center img-auto"  src={scaling} alt="scaling image"/>    </div>
                 </div>
                 <div className="col-lg-6">
                     <div className="f_content">

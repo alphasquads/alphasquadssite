@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Alpha Squads | A dedicated business consultancy and web development agency.',
+  siteTitle: 'Alpha Squads | A dedicated business and web development agency.',
   siteDescription:
     'Alpha Squads is a promising business consultancy and development agency dedicated to help clients build and run their business effortlessly.',
   siteKeywords:
@@ -8,7 +8,7 @@ module.exports = {
   siteLanguage: 'en_US',
   siteImage: 'https://alphasquads.com/og.png',
 
-  googleVerification: '',
+  googleVerification: 'TYWR01CGzxaxvFFRsVS8r2ZgCKYVprVFTK11bYPs75g',
 
   name: 'Akshay Amle',
   location: 'Chandrapur, MH',
@@ -51,7 +51,7 @@ module.exports = {
   ],
 
   twitterHandle: '@Alpha_Squads',
-  googleAnalyticsID: '',
+  googleAnalyticsID: 'UA-128758762-1',
 
   headerHeight: 100,
 
