@@ -100,7 +100,7 @@ class Homepage extends Component {
 </svg>
 </Link>
                    
-                    <h6>Explore Services in destail. </h6>
+                    <h6>Explore Services in detail. </h6>
                 </div>
                 <div className="designe_img">
                 <img  className="  img-auto "  src={homepagehandshake} alt="handshake image"/>
